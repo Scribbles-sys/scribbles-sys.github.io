@@ -1,6 +1,12 @@
 	html {
 	font-size: 11.5px
 	}
+
+	@media screen and (min-width: 600 px) {
+		#div1 {
+		font-size: 30px;
+		}
+	}
 	
 	body {
 	background-color: bisque;
@@ -18,4 +24,5 @@
 		color: red;
 	}
 	
+
 	
