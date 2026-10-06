@@ -1,38 +1,36 @@
-	html {
-	font-size: 11px
+html {
+	font-size: 12px
 	}
 	
-	@font-face {
-		font-family: 'Acessible Font';
-		src: url(AtkinsonHyperlegible-Regular.ttf) format('truetype');
-		font-weight: normal;
-	}
-
-	@media screen and (min-width: 600 px) {
-		#div1 {
-		font-size: 30px;
+@media screen and (min-width: 600 px) {
+	#div1 {
+	font-size: 40px;
 		}
 	}
-	
-	body {
-	background-color: bisque;
-	}
-	
-	a {
-		color:slategray;
-	}
-	
-	a:visited {
-		color:lightgray;
-	}
-	
-	a:hover, a:active {
-		color: red;
-	}
-	
-	p {
-		font-family: "AtkinsonHyperlegible", sans-serif; 
-	}
-	
 
-	
+body {
+	background-color: bisque;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	-webkit-columns: 1;
+    -moz-columns: 1;
+    columns: 1;
+	width: 60%;
+}
+
+a {
+	color:darkslategray;
+}
+
+a:visited {
+	color:darkslateblue;
+}
+
+a:hover, a:active {
+	color: darkred;
+}
+
